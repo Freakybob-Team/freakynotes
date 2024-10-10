@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(3, 96, 100, 0.908);
+    background-blend-mode: soft-light;
+    font-family: 'Comic Sans MS', sans-serif;
+    
+}
+
+#addBtn:hover {
+transform: scale(1.1);
+transition: 0.9s;
+}
+
+.card-body {
+    background-color: rgb(10, 234, 159);
+    border-radius: 7px;
+}
+#addTxt {
+    background-color: black;
+    color: aquamarine;
+}
+.navbar-brand{
+    margin-left: 600px;
+    background-color: rgba(3, 96, 100, 0.908);
+    border-radius: 7px;
+    color: rgba(216, 223, 223, 0.908);
+}
