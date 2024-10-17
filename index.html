@@ -37,7 +37,6 @@
     <a href="https://search.freakybob.site"><h1>FreakyNotes</h1></a>
 </header>
 <div id="username">
-    <h2>Welcome, </h2>
 </div>
     <div class="container my-3">
         <h1>Take your Notes here</h1>
@@ -74,8 +73,12 @@
     <script>
         function getUsername() {
             let user = document.cookie;
+            username.innerHTML += "Welcome, "
             username.innerHTML += user
         }
     </script>
+    <footer>
+        <a href="https://search.freakybob.site/login">Sign up for a FreakyAccount</a>
+    </footer>
 </body>
 </html>
